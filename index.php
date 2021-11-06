@@ -1,6 +1,6 @@
 <?php include('include/header.php'); ?>
 	<section class="hero" style="background: url(img/hero.webp) ; background-repeat : no-repeat;   background-size: cover;">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-10 col-md-12 col-sm-12 pt-3">
 					<div class="hero-wrapper">
@@ -8,17 +8,17 @@
 							<div class="hero-title">
 								<h1>The World's<br>#1 Marketplace for Freelancer</h1>
 								<div class="hero-text">
-									<p>Sign up in seconds. Post your job for free. Access the world's best professional Freelancers.</p>
+									<p class="hero-text-p ">Sign up in seconds. Post your job for free. Access the world's best professional Freelancers.</p>
 								</div>
 							</div>
 							<form action="#" class="hero-form">
 								<div class="job-keyword">
 									<input type="text" placeholder="Find services here" class="keyword">
 									<div class="icon-two">
-										<span><i class="fas fa-briefcase"></i></span>
+										<span><i class="fa fa-briefcase"></i></span>
 									</div>
 								</div>
-								<button class="hero-btn"><i class="fas fa-search"></i> Search</button>
+								<button class="hero-btn"><i class="fa fa-search"></i> Search</button>
 							</form>
 						</div>
 					</div>
@@ -29,7 +29,7 @@
 	
 <br><br>
 	<section>
-		<div class="container">
+		<div class="container-fluid">
 			<div class="header">
 				<div class="header-text">
 					<h2>Popular Professional Services</h2>
@@ -37,7 +37,7 @@
 			</div>
 			<div class="popular-profesional-services-body">
 			<section class="pt-5 ">
-					<div class="container-fluid" >
+					<div class="container-fluid-fluid" >
 						<div class="row">
 								<div class="col-12 " >
 								<div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
@@ -175,7 +175,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="container ">
+										<div class="container-fluid ">
 											<div class="d-flex justify-content-between text-right">
 												<a class="btn flxcity-color btn-lg mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
 													<i class="fa fa-arrow-left"></i>
@@ -195,24 +195,24 @@
 		</div>
 	</section><hr>
 	<section>
-	<div class="container" >
+	<div class="container-fluid" >
 			<div class="for-clients-section" style="background-image:url(./img/banner.jpg);  ">
-				<div class="for-clients-section-body col-lg-12 text-center">
+				<div class="for-clients-section-body col-lg-12 p-0 m-0">
 					<div class="for-clients-secton-body-text">
 					<p class="pb-3 text-shadow-deco ">What Are you looking For </p>
-					 <span class="px-5 text-shadow-deco-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, soluta! Perferendis incidunt necessitatibus dicta officia minima saepe soluta cupiditate impedit libero unde corporis sapiente, nemo, laboriosam maiores, culpa quia error?</span>
+					 <span class=" text-shadow-deco-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, soluta! Perferendis incidunt necessitatibus dicta officia minima saepe soluta cupiditate impedit libero unde corporis sapiente, nemo, laboriosam maiores, culpa quia error?</span>
 				</div><br>
 				</div> 
 				<div class="room-section d-block d-lg-flex">	
-						<div class="room col-md-4" >
+						<div class="room " >
 							<h3>Post a job To Hire</h3>
 							<span>Hire Market Place <i class="fa fa-arrow-right" aria-hidden="true"></i></span>
 						</div> &nbsp &nbsp 
-						<div class="room col-md-4">
+						<div class="room ">
 							<h3>Work As a Freelancer</h3>
 							<span>Hire Market Place <i class="fa fa-arrow-right" aria-hidden="true"></i></span>
 						</div>&nbsp &nbsp	
-						<div class="room  col-md-4">
+						<div class="room ">
 							<h3>How We Work Here</h3>
 							<span>Hire Market Place <i class="fa fa-arrow-right" aria-hidden="true"></i></span>
 						</div>
@@ -225,7 +225,7 @@
 
 
 	<section>
-		<div class="container p-5">
+		<div class="container-fluid p-5">
 			<div class="section-freelancer">
 				<div class="section-freelancer-header">
 					<h2>Find  All of our Services</h2>
@@ -276,7 +276,9 @@
 			</div>
 		</div>
 	</section>
-	<!-- <div class="container pt-4">
+
+
+	<!-- <div class="container-fluid pt-4">
 			<div class="header text-center p-3">
 				<h2>Our top Most Freelancers</h2>
 			</div>
@@ -404,11 +406,11 @@
 			</div>
 </div> -->
 	<section id="featured-job">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12">
 					<div class="titles">
-						<h2 class="titles__main-title font">What is great about <strong class="flxcity-text-color">FlxC!ty</strong> </h2>
+						<h2 class="titles__main-title font text-center">What is great about <strong class="flxcity-text-color">FlxC!ty</strong> </h2>
 					</div>
 					<div class="row">
 						<div class="col-lg-3 ">
@@ -435,7 +437,7 @@
 
 	
 	<section id="cta" class="pt-0">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="cta" style="background: url(img/cta/cta-bg.png);">
 				<div class="row">
 					<div class="col-lg-6 col-md-12 col-sm-12">
@@ -457,4 +459,9 @@
 			</div>
 		</div>
 	</section>
+
+<section>
+	
+</section>
+
 <?php include('include/footer.php'); ?>

@@ -1,5 +1,5 @@
 <?php include("./include/header2.php"); ?>
-<div class="container">
+<div class="container-fluid mx-4">
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb bg-white">
     <li class="breadcrumb-item"><a href="#">Home</a></li>
@@ -11,12 +11,12 @@
 
 	
 <section id="">
-	<div class="container d-flex">
+	<div class="container-fluid mx-4 d-flex">
 		<div class="dropdown">
-			<button class="btn  dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<!-- <button class="btn " type="button">
 						Budget
-					</button>
-			<div class="dropdown-menu" aria-labelledby="triggerId">
+					</button> -->
+			<div class="dropdown-menu" >
 				<div class="input-group-prepend d-flex">
 					<span class="input-group-text">Person</span>
 					</div>
@@ -25,39 +25,39 @@
 					<input type="text" class="dropdown-item" placeholder="Last Name">
 				</div>
 			</div> &nbsp
-			<div class="dropdown">
-			<button class="btn  dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Delivery Time
+				<div class="dropdown-budget">
+					<button class="btn "  onClick="dropdown()" type="button">
+								Budget
 					</button>
-			<div class="dropdown-menu" >
-				<div class="input-group-prepend d-flex " >
-					<span class="py-3 font-weight-bold">Price</span>
-					</div>
-						<div class="d-flex justify-content-between">
-							<div class="min-price d-block">
-								<label for="Min-price">Min.</label>
-								<input type="text" class="dropdown-item border" placeholder="Min Price">		
+					<div class="dropdown-budget-menu"  id="dropdown-budget">
+						<div class="input-group-prepend d-flex " >
+							<span class="py-3 font-weight-bold flxcity-text-color">Price</span>
 							</div>
-						<div class="max-price d-block">
-							<label for="Max-price" >Max.</label>
-							<input type="text" class="dropdown-item border" placeholder="Max Price">
-						</div>	
-					</div>
-					<hr>
-					<div class="d-flex justify-content-between">
-						<div class="clear-button">
-							<a type="button" class="text-info">Clear</a>
+								<div class="d-flex justify-content-between">
+									<div class="min-price d-block">
+										<p> <label for="Min-price">Min.</label></p>
+										<input type="text" id="input" Placeholder="Min Price" class="mr-2 d-input">		
+									</div>
+								<div class="max-price d-block">
+								<p>	<label for="Max-price" >Max.</label></p>
+									<input type="text" id="input" Placeholder="Max Price" class="d-input">
+								</div>	
+							</div>
+							<hr>
+							<div class="d-flex justify-content-between">
+								<div class="clear-button">
+									<button type="button" class="btn text-info" onClick="clear()">Clear</button>
+								</div>
+								<div class="Apply-button " aria-labelledby="triggerId" >
+									<button type="button" class="btn flxcity-button" onClick="hide()">Apply</button>
+								</div>
+							</div>
 						</div>
-						<div class="Apply-button " aria-labelledby="triggerId" >
-							<button type="button" class="btn btn-white">Apply</button>
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>
 
-		<div class="container">
+		<div class="container-fluid mx-4">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12">
 					<div class="titles">
@@ -69,11 +69,11 @@
 							<div class="cards-img">
             					<img src="img/blog/blog-1.jpg" alt="" class="card-img1">
 							</div>
-							<div class="cards-body p-2">
+							<div class="cards-body p-3">
 								<h5 class="pb-2"> I will design the best logo for your bussines</h5>
 									<div class="d-flex justify-content-between">
 										<div class="price">
-											<i class="fa fa-money" aria-hidden="true"></i>Rs: 3900/-
+											<i class="fa fa-inr" aria-hidden="true"></i> 3900/-
 										</div>
 										<div class="delivery">
 											 <i class="fa fa-clock text-primary" aria-hidden="true"></i> 2 day Delivery
@@ -97,11 +97,11 @@
 									<div class="cards-img">
 										<img src="img/blog/blog-2.jpg" alt="" class="card-img1">
 									</div>
-							<div class="cards-body p-2">
+							<div class="cards-body p-3">
 								<h5 class="pb-2"> I will design the best logo for your bussines</h5>
 									<div class="d-flex justify-content-between">
 										<div class="price">
-											<i class="fa fa-money" aria-hidden="true"></i>Rs: 3900/-
+											<i class="fa fa-inr" aria-hidden="true"></i> 3900/-
 										</div>
 										<div class="delivery">
 											 <i class="fa fa-clock text-primary" aria-hidden="true"></i> 2 day Delivery
@@ -125,11 +125,11 @@
 								<div class="cards-img">
 									<img src="img/blog/blog-3.jpg" alt="" class="card-img1">
 								</div>
-								<div class="cards-body p-2">
+								<div class="cards-body p-3">
 								<h5 class="pb-2 "> I will design the best logo for your bussines</h5>
 									<div class="d-flex justify-content-between">
 										<div class="price">
-											<i class="fa fa-money" aria-hidden="true"></i>Rs: 3900/-
+											<i class="fa fa-inr" aria-hidden="true"></i> 3900/-
 										</div>
 										<div class="delivery">
 											 <i class="fa fa-clock text-primary" aria-hidden="true"></i> 2 day Delivery
@@ -153,11 +153,11 @@
 							<div class="cards-img">
             				<img src="img/blog/blog-4.jpg" alt="" class="card-img1">
 							</div>
-							<div class="cards-body p-2">
+							<div class="cards-body p-3	">
 								<h5 class="pb-2 "> I will design the best logo for your bussines</h5>
 									<div class="d-flex justify-content-between">
 										<div class="price">
-											<i class="fa fa-money" aria-hidden="true"></i>Rs: 3900/-
+											<i class="fa fa-inr" aria-hidden="true"></i> 3900/-
 										</div>
 										<div class="delivery">
 											 <i class="fa fa-clock text-primary" aria-hidden="true"></i> 2 day Delivery

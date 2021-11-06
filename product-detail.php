@@ -51,17 +51,6 @@
                     <div class="caption-container">
                         <p id="caption"></p>
                     </div>
-                    <!-- <div class="row">
-                        <div class="column">
-                        <img class="demo cursor " src="./img/graphics&design/print.jpg" style="width:50%" onclick="currentSlide(1)" >
-                        </div>
-                        <div class="column">
-                        <img class="demo cursor " src="./img/graphics&design/visual.jpg" style="width:50%" onclick="currentSlide(2)" alt="Cinque Terre">
-                        </div>
-                        <div class="column">
-                        <img class="demo cursor " src="./img/graphics&design/web-design.jpg" style="width:50%" onclick="currentSlide(3)" alt="Mountains and fjords">
-                        </div>
-                       </div> -->
                     </div>
             </div>
                 <div class="gig-details">
@@ -71,46 +60,6 @@
                     <div class="gig-details-para my-3">
                         <p class="flxcity-para-color"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolore temporibus nulla aperiam praesentium cum, fugit harum dolor! Ducimus rem beatae tempora eius voluptatum corrupti ad? Hic quisquam officia qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, eligendi ad et omnis aperiam placeat iusto eos fuga! Reiciendis enim ab magnam earum blanditiis expedita, voluptates in cum cupiditate ex. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque nesciunt illum culpa quas voluptates iste reiciendis numquam mollitia magnam alias assumenda nisi fugiat maxime qui a minima et, earum cum. </p>
                     </div>
-
-                    <!-- <div class="compare-package" id="compare">
-                        <div class="table-header py-4">
-                            <h2>Compare Package</h2>
-                        </div>
-                    <table class="table table-striped table-bordered text-center">
-                                <thead>
-                                    <tr>
-                                    <th scope="col">Service tire</th>
-                                    <td scope="col">
-                                        <p>999</p>
-                                        <p>Basic</p>
-                                        <p>Start Up Pack</p>
-                                    </td>
-                                    <th scope="col">Standard Pack</th>
-                                    <th scope="col">Advance $200</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                    <th scope="row">Delivery Time</th>
-                                        <td> 2 days </td>
-                                        <td>4 days</td>
-                                        <td>5 days</td>
-                                    </tr>
-                                    <tr>
-                                    <th scope="row">Logo Transperacy</th>
-                                        <td><i class="fa fa-check-circle text-success" aria-hidden="true"></i></td>
-                                        <td><i class="fa fa-check-circle text-success" aria-hidden="true"></i></td>
-                                        <td> <i class="fa fa-check-circle text-success" aria-hidden="true"></i></td>
-                                    </tr>
-                                    <tr>
-                                    <th scope="row">Vector File</th>
-                                        <td><i class="fa fa-check-circle text-success" aria-hidden="true"></i></td>
-                                        <td><i class="fa fa-check-circle text-success" aria-hidden="true"></i></td>
-                                        <td><i class="fa fa-check-circle text-success" aria-hidden="true"></i></td>
-                                    </tr>
-                                </tbody>
-                                </table>
-                         </div> -->
                     <div class="gig-profile-data">
                        <h2 class="py-4">About the seller</h2>
                         <div class="profile d-flex ">
@@ -122,7 +71,7 @@
                                 <div class="profile-data">
                                     <h6 class="p-1" > <a href="profile.php">Hanma Jackob</a> </h6>
                                     <span class=" "><i class="fa fa-star text-primary" aria-hidden="true"></i> 4.9 (98) </span><br>
-                                    <p><button type="button" class="btn btn-white " >Contact me</button></p> 
+                                    <p><button type="button" class="btn flxcity-button" >Contact me</button></p> 
                                     </div>
                                 </div>
                             </div>
@@ -142,7 +91,7 @@
                                     <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
                                         aria-controls="collapseOne1">
                                         <h5 class="mb-0 font-weight-bold flxcity-para-color">
-                                        What is source/vector file?<i class="fas fa-angle-down rotate-icon"></i>
+                                        What is source/vector file?<i class="fa fa-angle-down rotate-icon"></i>
                                         </h5>
                                     </a>
                                     </div>
@@ -158,7 +107,7 @@
                             <div class="cards-header" role="tab" id="headingTwo2">
                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
                                     <h5 class="mb-0 font-weight-bold flxcity-para-color">
-                                    What is Social Media Kit? <i class="fas fa-angle-down rotate-icon"></i>
+                                    What is Social Media Kit? <i class="fa fa-angle-down rotate-icon"></i>
                                     </h5>
                                 </a>
                                 </div>
@@ -172,7 +121,7 @@
                             <div class="cards-header" role="tab" id="headingThree3">
                                     <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
                                         <h5 class="mb-0 font-weight-bold flxcity-para-color">
-                                        What is Stationery Designs? <i class="fas fa-angle-down rotate-icon"></i>
+                                        What is Stationery Designs? <i class="fa fa-angle-down rotate-icon"></i>
                                         </h5>
                                     </a>
                                     </div>
@@ -190,30 +139,47 @@
             <div class="col-lg-4 pb-4">
                     <div class="service-tier container border shadow-lg py-4 px-4">
                             <div class="service-tier-header mb-3 d-flex justify-content-between">
-                                <p class="font-weight-bold text-grey-light">Selecet Service Tier</p>
+                                <p class="font-weight-bold text-grey-light">Selecet from different packs</p>
                             </div>
-                            <div class="service-tier-selection d-flex justify-content-between">
-                                <div class="form-check text-center">
-                                <label class="form-check-label"> 
-                                    <input type="radio" class="form-check-input" name="select" id="starter" value="checkedValue" checked><br>
-                                    <p class="text-left ">Basic <span>40$</span></p></label>
+                            <div class="service-tier-selection d-flex  wrapper">
+                                <div class="form-check p-0">
+                                <label class="form-check-label "> 
+                                    <input type="radio" class="form-check-input ml-2" name="select" id="starter" value="checkedValue" checked><br>
+                                    <label for="starter" class="option option-1 d-block text-center">
+                                    <div class="dot ml-3"></div>
+                                    <span>Basic</span>
+                                    </label> 
                                 </div>
-                                <div class="form-check text-center">
-                                <label class="form-check-label"> 
-                                    <input type="radio" class="form-check-input" name="select" id="standard" value="checkedValue" ><br>
-                                    <p class="text-left">standard <span>70$</span></p></label>
-                                </div>
-                                <div class="form-check text-center">
-                                <label class="form-check-label"> 
-                                    <input type="radio" class="form-check-input" name="select" id="pro" value="checkedValue" ><br>
-                                    <p class="text-left">Pro <span>400$</span></p></label>
-                                </div>
-                            </div><hr>
+                                <div class="form-check text-center mr-1 p-0">
+                                    <label class="form-check-label "> 
+                                        <input type="radio" class="form-check-input" name="select" id="standard" value="checkedValue" ><br>
+                                        <div class="dot"></div>
+                                        <label for="standard" class="option option-2 d-block p-0">
+                                        <div class="dot ml-4"></div>
+                                        <span>Standard</span>
+                                    </label>     
+                            </div>
+                            <div class="form-check text-center mr-1 p-0 ">
+                                    <label class="form-check-label "> 
+                                        <input type="radio" class="form-check-input" name="select" id="pro" value="checkedValue" ><br>
+                                        <div class="dot"></div>
+                                        <label for="pro" class="option option-3 d-block">
+                                        <div class="dot ml-3"></div>
+                                        <span>pro</span>
+                                    </label>     
+                               </div>
+                            </div>
+                           
+                            <hr>
                             <!-- service-tier-description for starter -->
                             <div class="service-tier-description-header">
                                 <p class="text-grey-light">Whats included ?</p>
                             </div>
                             <div class="service-tier-description" id="service-tier-starter">
+                             <div class="service-tier-description-1 d-flex justify-content-between p-1">
+                                    <p>Delivery time</p>
+                                    <p>1 days</p>
+                                </div>
                                 <div class="service-tier-description-1 d-flex justify-content-between p-1">
                                     <p>Delivery time</p>
                                     <p>1 days</p>
@@ -282,7 +248,7 @@
                                 <p> <i class="fa fa-clock" aria-hidden="true"></i> 4 days delivery - 27 october,2021</p>
                             </div>
                             <div class="service-tier-button text-center">
-                                <button class="btn btn-white" type="submit">Continue 30$</button>
+                                <button class="btn flxcity-button" type="submit">Continue 30$</button>
                             </div>
                     </div>
             </div>
@@ -309,7 +275,7 @@
 								<h5 class="pb-2 "> I will design the best logo for your bussines</h5>
 									<div class="d-flex justify-content-between">
 										<div class="price">
-											<i class="fa fa-money" aria-hidden="true"></i>From Rs: 3900/-
+											<i class="fa fa-inr" aria-hidden="true"></i> 3900/-
 										</div>
 										<div class="delivery">
 											 <i class="fa fa-clock text-primary" aria-hidden="true"></i> 2 day Delivery
@@ -337,7 +303,7 @@
 								<h5 class="pb-2 "> I will design the best logo for your bussines</h5>
 									<div class="d-flex justify-content-between">
 										<div class="price">
-											<i class="fa fa-rupee" aria-hidden="true"></i>Rs: 3900/-
+											<i class="fa fa-rupee" aria-hidden="true"></i> 3900/-
 										</div>
 										<div class="delivery">
 											 <i class="fa fa-clock text-primary" aria-hidden="true"></i> 2 day Delivery
@@ -365,7 +331,7 @@
 								<h5 class="pb-2 "> I will design the best logo for your bussines</h5>
 									<div class="d-flex justify-content-between">
 										<div class="price">
-											<i class="fa fa-rupee" aria-hidden="true"></i>Rs: 3900/-
+											<i class="fa fa-rupee" aria-hidden="true"></i> 3900/-
 										</div>
 										<div class="delivery">
 											 <i class="fa fa-clock text-primary" aria-hidden="true"></i> 2 day Delivery
@@ -393,7 +359,7 @@
 								<h5 class="pb-2 "> I will design the best logo for your bussines</h5>
 									<div class="d-flex justify-content-between">
 										<div class="price">
-											<i class="fa fa-money" aria-hidden="true"></i>Rs: 3900/-
+											<i class="fa fa-inr" aria-hidden="true"></i> 3900/-
 										</div>
 										<div class="delivery">
 											 <i class="fa fa-clock text-primary" aria-hidden="true"></i> 2 day Delivery

@@ -18,28 +18,29 @@
 </head>
 <body>
 <header class="index-nav index-guest">
-		<div class="container">
+		<div class="container-fluid px-4">
 			<div class="row">
-				<div class="col-lg-12 col-sm-12 col-md-12 primary-menu order-sm-1 order-2">
-					<nav class="navbar navbar-expand-lg">
+				<div class="col-lg-12 col-sm-12 col-md-12 primary-menu order-sm-1 order-2 p-0 m-0">
+					<nav class="navbar navbar-expand-lg ">
 					    <div class="navbar-brand pb-0">
-					    	<a class="logo js-scroll-trigger" href="./"><img src="img/" alt=""> <h4>flXc!tY</h4></a>
-					    	<a class="s-logo js-scroll-trigger " href="./"><img src="img/" alt="">  <h4>flXc!tY</h4></a>
+					    	<a class="s-logo js-scroll-trigger " href="index.php"><img src="img/logo/logo_new.png" alt="">  <h4></h4></a>
 					    </div>
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 					  	<span class="navbar-toggler-icon"></span>
 					  	</button>
 					
-						<div class="collapse navbar-collapse" id="navbarNavDropdown">
-						    <ul class="navbar-nav ml-auto">
+						<div class="collapse navbar-collapse mt-1" id="navbarNavDropdown">
+						    <ul class="navbar-nav ml-auto ">
+								<li class="nav-item">
+									<div class="input-group">
+										<div class="form-outline">		
+											<input type="search" id="form1" class="head-search" />
+										</div>
+										<button class="header-search"><i class="fa fa-search"></i> Search</button>
+										</div>	
+								</li>
 						      	<li class="nav-item">
-						        	<a class="nav-link active" href="./">Home</a>
-						      	</li>
-						      	<li class="nav-item">
-						        	<a class="nav-link" href="about.php">About</a>
-						      	</li>
-					      		<li class="nav-item">
-						        	<a class="nav-link" href="contact.php">Contact</a>
+						        	<a class="nav-link active" href="index.php">Home</a>
 						      	</li>
 						      	<li class="nav-item">
 						        	<a class="nav-link" href="login.php">Login</a>
@@ -65,8 +66,8 @@
 										</div>
 										</div>
 								</li>
-								<li class="nav-item" style="margin-top: -5px;">
-									<a class="btn flxcity-text-color bg-white" href="post-job.php">Post a Job</a>
+								<li class="mx-1" style="margin-top: -5px;">
+									<a class="btn flxcity-button mt-1" href="post-job.php">Post a Job</a>
 								</li>
 
 						    </ul>
@@ -76,7 +77,7 @@
 					</nav>
 					<div class="nav-scroller d-none d-lg-block "  id="navbar">
 						<nav class="nav d-flex justify-content-between ">
-						<a class="text-secondary" href="#">Programming + Tech</a>
+						<a class="text-secondary" href="#">Web development</a>
 						<a class="text-secondary" href="#">Logo designer</a>
 						<a class="text-secondary" href="graphics&design.php">Graphics designer</a>
 						<a class="text-secondary" href="#">Gaming</a>
@@ -86,8 +87,7 @@
 						<a class="text-secondary" href="#">Video animation</a>
 						<a class="text-secondary" href="#">Digital marketing</a>
 						</nav>
-			</div>
-			<hr class="d-none d-lg-block">
+				</div>
 				</div>
 					
 			</div>
@@ -100,7 +100,7 @@
 	
 	<!-- Modal Message -->
 	<section class="modals">
-		<div class="container">
+		<div class="container-fluid px-4">
 			<div class="modal fade" id="unread-messages" role="dialog" tabindex="-1" aria-hidden="true">
 			    <div class="modal-dialog">
 			      	<div class="modal-content unread-messages"> 

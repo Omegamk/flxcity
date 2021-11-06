@@ -17,31 +17,31 @@
 
 </head>
 <body>
-	<div class="container">
-<nav class="navbar navbar-expand-lg navbar-fixed-top navbar-white bg-white p-4 ">
-  <a class="navbar-brand flxcity-text-color" href="#"><h4 class=" flxcity-text-color"> flxC!tY</h4></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	<div class="container-fluid mb-5 px-5">
+<nav class="navbar navbar-expand-lg navbar-fixed-top navbar-white bg-white py-2">
+  <a class="navbar-brand flxcity-text-color" href="index.php"><h4 class=" flxcity-text-color"> <img src="img/logo/logo_new.png" alt=""></h4></a>
+  <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
+    <ul class="navbar-nav ml-auto align-items-center">
+	<li class="nav-item">
+		<div class="input-group">
+			<div class="form-outline">		
+				<input type="search" id="form1" class="head-search" />
+			</div>
+			<button class="header-search"><i class="fa fa-search"></i> Search</button>
+			</div>	
+	</li>
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link " href="#">Login</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link " href="#" >
-          contact
-        </a>
-         </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Login</a>
-      </li>
-	  <li class="nav-item">
-        <a class="nav-link disabled" href="#">Post a job</a>
+	  <li class="">
+        <a class="btn bg-flx" href="#">Post a job</a>
       </li>
     </ul>
     </div>
@@ -59,7 +59,6 @@
 				<a class="text-secondary" href="#">Digital marketing</a>
 				</nav>
 			</div>
-			<hr class="d-none d-lg-block  " > 
 </div>	
 	<!-- Modal Message -->
 	
